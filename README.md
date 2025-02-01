@@ -15,7 +15,7 @@ This is a simple Go application running inside a Docker container. It exposes a 
 
 ## 🚀 Getting Started
 
-## 🐳 Docker Image
+### 🐳 Docker Image
 
 This application is available on **Docker Hub**:
 
