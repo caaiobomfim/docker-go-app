@@ -15,25 +15,24 @@ This is a simple Go application running inside a Docker container. It exposes a 
 
 ## 🚀 Getting Started
 
-### 💻 Running Locally
-To run the application without Docker, execute:
+## 🐳 Docker Image
+
+This application is available on **Docker Hub**:
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/caiobom/fullcycle?style=flat-square)](https://hub.docker.com/r/caiobom/fullcycle)
+
+### 📥 Pull the Image
+To pull the image from Docker Hub, run:
 
 ```sh
-go run main.go
-```
-
-### 🐳 Building the Docker Image
-To build the optimized Docker image, run:
-
-```sh
-docker build -t go-docker-app .
+docker pull caiobom/fullcycle:latest
 ```
 
 ### 🔥 Running the Docker Container
 Run the container and expose port 8080:
 
 ```sh
-docker run -p 8080:8080 go-docker-app
+docker run -p 8080:8080 caiobom/fullcycle
 ```
 
 ### 🌍 Testing the Application
